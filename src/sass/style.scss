@@ -1,0 +1,26 @@
+@import 'base/variable';
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.burger {
+    display: none;
+}
+
+
+@import './header';
+@import './promo';
+@import './btn';
+
+
+@import 'base/media';
+
+
+

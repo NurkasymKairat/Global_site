@@ -1,0 +1,41 @@
+.btn {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: $color1;
+    border: none;
+    outline: none;
+    padding: 12px 18px;
+    border-radius: 50px;
+    transition: 0.2s;
+    &:hover,
+    &:active {
+        background-color: $color2;
+    }
+    &_2 {
+        padding: 18px 15px;
+        display: block;
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 35px;
+
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: $color1;
+        border: none;
+        outline: none;
+        padding: 12px 18px;
+        border-radius: 50px;
+        transition: 0.2s;
+        &:hover,
+        &:active {
+            background-color: $color2;
+    }
+    }
+}
