@@ -1,0 +1,35 @@
+.works {
+    padding: 50px 0;
+    &_wrapper {
+        gap: 30px;
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &_item {
+        max-width: 365px;
+    }
+
+    &_img img {
+        width: 100%;
+    }
+
+    &_title {
+        margin: 20px 0 8px 0;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #ec644b;
+    }
+
+    &_text {
+        
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        line-height: 22px;
+    }
+}

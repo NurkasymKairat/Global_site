@@ -1,0 +1,56 @@
+.map {
+    
+    iframe {
+        width: 100%;
+    }
+    &_wrapper {
+        position: relative;
+    }
+
+    &_item {
+        margin-right: 50px;
+        padding: 27px 30px;
+        text-align: left;
+        position: absolute;
+        z-index: 3;
+        top: 15%;
+        left: 55%;
+        display: block;
+        max-width: 329px;
+        height: 158px;
+        background-color: #ffffff;
+        i {
+            position: absolute;
+            left: -6%;
+            top: 25%;
+            font-size: 64px;
+            color: #ffffff;
+        }
+
+    }
+
+    &_title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: $color1;
+    }
+
+    &_text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        line-height: 1.5;
+    }
+
+    &_email {
+        color: $color1;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: underline;
+        &:hover {
+            color: $color1;
+            text-decoration: none;
+        }
+    }
+}

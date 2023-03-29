@@ -1,0 +1,29 @@
+.agents {
+    height: 342px;
+    background: url('../img/agents_bg.png') center center / cover no-repeat;
+    &_wrapper {
+        padding: 55px 0 75px 0;
+    }
+
+    &_img img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &_title {
+        margin: 20px 0;
+        text-align: center;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    &_subtitle {
+        text-align: center;
+        font-size: 19px;
+        line-height: 27px;  
+        font-weight: 300;
+        color: #ffffff;
+    }
+}

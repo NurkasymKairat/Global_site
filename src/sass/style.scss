@@ -14,13 +14,80 @@ body {
     display: none;
 }
 
+.subtitle {
+    text-align: center;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #2e2e2e;
+}
+
+.subtitle_m {
+    margin-top: 30px;
+}
+
+
+
+@mixin title {
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+}
+
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: $color2;
+    margin: 20px auto 13px auto ;
+}
+
+.simple {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
 
 @import './header';
 @import './promo';
 @import './btn';
+@import './reasons';
+@import './works';
+@import './agents';
+@import './price';
+@import './modal';
+@import './consult';
+@import './timer';
+@import './bild';
+@import './scheme';
+@import './slider';
+@import './question';
+@import './map';
+@import './footer';
 
 
 @import 'base/media';
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
 
 

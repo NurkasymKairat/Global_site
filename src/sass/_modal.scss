@@ -1,0 +1,84 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: display 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);   
+    padding: 0 30px;
+    &_wrapper {
+        position: relative;
+        max-width: 400px;
+        margin: 40px auto;
+        padding: 30px 30px 10px 30px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+    &_title {
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    &_close {
+        position: absolute;
+        top: 8px;
+        right: 14px;
+        font-size: 30px;
+        color: #000;
+        opacity: 0.5;
+        font-weight: 700;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    &_block {
+        position: relative;
+        text-align: center;
+        margin: 20px auto;
+        display: block;  
+        input {
+            width: 250px;
+            border-radius: 30px;
+            padding-left: 20px;
+            height: 47px;
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,0.2);
+            font-size: 13px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #101010;
+            outline: none;
+        }
+        button {
+            margin: 0;
+            padding: 15px 40px;
+        }
+
+        span {
+            text-transform: uppercase;
+            position: absolute;
+            bottom: -18px;
+            right: 0;
+            left: 0;
+            font-size: 9px;
+            color: $color2;
+        }
+
+        #sub-error {
+            color: $color2;
+        }
+
+        i {
+            color: rgb(40, 195, 45);
+        }
+    }
+}

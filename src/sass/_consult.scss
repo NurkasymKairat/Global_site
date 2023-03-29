@@ -1,0 +1,99 @@
+
+
+.consultion {
+    margin-bottom: 50px;
+    &_wrapper {
+        margin: 70px auto 0 auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        max-width: 1140px;
+        height: 166px;
+        border: 1px solid #898989;
+    }
+
+    &_info {
+        margin: 30px 0 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &_img {
+        width: 102px;
+        height: 102px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $color1;
+        border-radius: 50%;
+        
+        &_wrapper {
+            width: 120px;
+            z-index: 3;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            position: absolute;
+            top: -51px;
+            background: #fff;
+        }
+    }
+
+    &_form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 42px;
+        background: #fff;
+        position: absolute;
+        margin: 0 auto;
+        bottom: -21px;
+        span {
+            text-transform: uppercase;
+            position: absolute;
+            bottom: -30px;
+            left: 10px; 
+            font-size: 9px;
+            color: #dc5238;
+        }
+    }
+
+    &_input {
+        width: 250px;
+        border-radius: 30px;
+        padding-left: 20px;
+        height: 47px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #101010;
+        margin-right: 5px;
+        outline: none;
+    }
+
+    &_item {
+        position: relative;
+        span {
+            text-transform: uppercase;
+            position: absolute;
+            bottom: -15px;
+            right: 10%;
+            z-index: 3;
+            font-size: 9px;
+            color: #dc5238;
+        }
+    }
+
+
+
+}

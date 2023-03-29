@@ -1,0 +1,44 @@
+.reasons {
+    background-color: #f3f3f3;
+    padding: 55px 0;
+    &_title {
+        @include title;
+    }
+    &_wrapper {
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        justify-content: center;
+        row-gap: 36px;
+    }
+
+    &_item {
+        margin-left: 100px;
+        max-width: 450px;
+        &_title {
+            margin-bottom: 2px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &_text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            line-height: 22px;
+        }
+    }
+
+    &_block {
+        position: relative;
+
+    }
+
+    &_img {
+        position: absolute;
+        left: -75px;
+        top: 0;
+    }
+
+
+}
